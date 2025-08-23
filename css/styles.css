@@ -1,4 +1,4 @@
-<!-- css/styles.css of bbauska/trump-2025-grift making trump-2025-grift.bauska.org -->
+/* css/styles.css of bbauska/trump-2025-grift making trump-2025-grift.bauska.org */
 @import url(https://fonts.googleapis.com/css?family=Crimson+Text:400,700,900,400italic,700italic,900italic|Playfair+Display:400,700,900,400italic,700italic,900italic|Rock+Salt:400);
 
 *,
@@ -23,6 +23,13 @@ body {
   padding: 1em;
   width: 100%;
 }
+.tallFirstLetter:first-letter {
+  float: left;
+  font: 700 3em/0.65 'Playfair Display', sans-serif;
+  padding: 0.15em 0.05em 0 0;
+  text-transform: uppercase;
+}
+
 /*** OPEN BOOK ***/
 .open-book {
   background: #fff;  /* white */
